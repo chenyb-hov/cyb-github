@@ -1,0 +1,8 @@
+xxController.cs 控制器处理get,post请求 前端ajax访问路径为 "xx.方法名"
+a ?? b 若a!=null则返回a,否则返回B
+
+//对象转json字符串
+System.Text.StringBuilder sb = new System.Text.StringBuilder();
+                    System.Web.Script.Serialization.JavaScriptSerializer json = new System.Web.Script.Serialization.JavaScriptSerializer();
+                    json.Serialize(对象, sb);
+
